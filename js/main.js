@@ -16,21 +16,35 @@ function calculateDaysSince(){
 
 }
 
-// function calculateProtesterHunger(days){
+function calculateProtesterHunger(days){
 
-//     switch(days) {
-//         case x:
-//           // code block
-//           break;
-//         case y:
-//           // code block
-//           break;
-//         default:
-//           // code block
-//       }
+    if(days <= 3)
+    {
+        document.getElementById("protester").src = "./images/hungerstrike1-3.jpg"
+    }
+    else if(days <= 7)
+    {
+        document.getElementById("protester").src = "./images/hungerstrike4-7.jpg"
+    }
+    else if(days <= 12)
+    {
+        document.getElementById("protester").src = "./images/hungerstrike8-12.jpg"
+    }
+    else if(days <= 17)
+    {
+        document.getElementById("protester").src = "./images/hungerstrike13-17.jpg"
+    }
+    else if(days <= 21)
+    {
+        document.getElementById("protester").src = "./images/hungerstrike18-21.jpg"
+    }
+    else
+    {
+        document.getElementById("protester").src = "./images/hungerstrike22.jpg"
+    }
 
-// }
+}
 
 
 calculateDaysSince()
-// calculateProtesterHunger(totalDaysSince)
+calculateProtesterHunger(totalDaysSince)
