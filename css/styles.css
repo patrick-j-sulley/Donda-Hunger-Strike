@@ -1,0 +1,11 @@
+#sign{
+    justify-content: center;
+    display: flex;
+}
+
+#protester{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
