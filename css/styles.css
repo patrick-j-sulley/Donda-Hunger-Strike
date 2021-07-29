@@ -1,6 +1,10 @@
 #sign{
     justify-content: center;
     display: flex;
+    background-image:url('../images/sign-bg.jpg');
+    font-family: 'Rock Salt', cursive;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #protester{
