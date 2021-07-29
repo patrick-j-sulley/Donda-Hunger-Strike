@@ -3,7 +3,7 @@
     display: flex;
     background-image:url('../images/sign-bg.jpg');
     font-family: 'Rock Salt', cursive;
-    font-size: large;
+    font-size:12px;
     color: rgba(0, 0, 0, 0.719);
 }
 
