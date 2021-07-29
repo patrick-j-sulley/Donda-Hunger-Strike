@@ -13,6 +13,7 @@ function calculateDaysSince(){
     totalDaysSince = Math.round(timeDifference / oneDay) - 1;
 
     document.getElementById("total").innerHTML = totalDaysSince;
+    document.title = 'DONDA Hunger Strike Day ' + totalDaysSince
 
 }
 
